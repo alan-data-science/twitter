@@ -2,6 +2,8 @@
 
 A reproducible, offline-first AI customer-support experiment over the Customer Support on Twitter dataset. The raw CSV is the source of truth; processed files and evaluation outputs are generated locally.
 
+The raw `twcs.csv` file is intentionally excluded from Git because this local copy is approximately 516 MB and GitHub rejects files larger than 100 MB. Download the Customer Support on Twitter dataset separately and place it at `data/raw/twcs.csv` before running the pipeline.
+
 ## Setup
 
 ```powershell
